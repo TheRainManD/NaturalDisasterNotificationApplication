@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "404710253401",
+    "project_id": "cmpe295-fe2ed",
+    "storage_bucket": "cmpe295-fe2ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404710253401:android:0c232f1ce9b835eb6ce248",
+        "android_client_info": {
+          "package_name": "com.reactnativefrontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404710253401-p7hpj22q5l1tnd327cul2uin9je0jbo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reactnativefrontend",
+            "certificate_hash": "8adebb60625c941d5c93e804f485e8fc685d28c1"
+          }
+        },
+        {
+          "client_id": "404710253401-tfmmclehoejg0u1j02tv2jar2drpcceb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reactnativefrontend",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "404710253401-g9amau3io9sncsfl77lt544dqtbni0en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGQClZ6nq_NhHrhNvJzIUsvyWq3PkvYjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404710253401-g9amau3io9sncsfl77lt544dqtbni0en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404710253401:android:39cb29bbae25abec6ce248",
+        "android_client_info": {
+          "package_name": "com.wenhao.androidfrontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404710253401-0ndkvrg3e31s9fdj8dbmdo4t5kq2ibn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wenhao.androidfrontend",
+            "certificate_hash": "8adebb60625c941d5c93e804f485e8fc685d28c1"
+          }
+        },
+        {
+          "client_id": "404710253401-g9amau3io9sncsfl77lt544dqtbni0en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGQClZ6nq_NhHrhNvJzIUsvyWq3PkvYjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404710253401-g9amau3io9sncsfl77lt544dqtbni0en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

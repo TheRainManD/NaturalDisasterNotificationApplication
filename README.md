@@ -29,4 +29,34 @@ Our application contains four main components
  * Frontend Mobile Application  
    * Receive and display push notification
    * Creates local push notification upon entering a geofence object (if geofence feature is enabled in setting)
-   * Displays neayby disasters in both list view and map view
+   * Displays neayby disasters in both list view and map view  
+ <br>  
+ 
+ ### UI Functionalities  
+ 
+ - Receiving and displaying notification  
+   ##### Test account posting emergency Tweet:  
+   <img src="/img/tweetPosting.png" alt="Posting Test Tweet" width="500" >  
+
+   ##### Received notification:
+   <img src="/img/uiDemo.jpg" alt="Receiving Notification" width="300" >  
+ 
+ - Showing nearby disasters  
+   ##### List view:  
+   <img src="/img/uiListView.png" alt="Receiving Notification" width="300" >  
+
+   ##### Map view:  
+   <img src="/img/uiMapView.png" alt="Receiving Notification" width="300" >  
+ 
+ - There are two main ways to receive disaster notification:
+   - Subscription based (Disaster type & location)
+     ##### Disaster type subscription:  
+     <img src="/img/uiTopicSelection.png" alt="Receiving Notification" width="300" >  
+     
+     ##### Location subscription:  
+     <img src="/img/uiLocationSelection.png" alt="Receiving Notification" width="300" >  
+     
+   - Geofence based (Notified when entering the impacted area of a disaster)  
+     ##### Geofence feature under "Settings":  
+     <img src="/img/uiSetting.png" alt="Receiving Notification" width="300" >
+     

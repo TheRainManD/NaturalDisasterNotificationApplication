@@ -11,7 +11,7 @@ Receiving information in time is crucial in the event of natural disasters. Plat
   <img src="/img/architecture.png" alt="Application Architecture" width="600" > 
 </p>
  
-Our application contains four main components based on their functionalities  
+Our application contains four main components 
 
  * Pull Server
    * Intergrated with Twitter API to maintain a live stream and listen for new Tweets from our list of verified accounts

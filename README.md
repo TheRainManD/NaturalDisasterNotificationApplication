@@ -19,7 +19,7 @@ Our application contains four main components based on their functionalities
  * Analysis Server  
    * Use a self-trained Bert-based multitask model to
      * Classify whether a Tweet is emergency related
-     * Classify an emergency related Tweet to be one the disaster types
+     * Classify an emergency related Tweet to be one of the disaster types
    * Use a self-trained Bert-based Named Entity Recognition model to extract location strings from text
    * Sends emergency Tweet along with classification result and location strings to Notification Server via HTTP request
  * Notification Server  

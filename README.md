@@ -21,7 +21,7 @@ Our application contains four main components
      * Used Twitter API "User Tweet Timeline" method to collect data from multiple official accounts (Retweet are excluded). Data are manually labelled.
      * Found and used approriate labelled datasets from CrisisNLP 
      * Final training dataset are processed and concatenated from prvious datasets
-   * Use a self-trained BERT multi-task model to
+   * Use a self-trained BERT multi-task learning model to
      * Classify whether a Tweet is emergency related
      * Classify an emergency related Tweet to be one of the disaster types
    * Use a self-trained DistilBERT Named Entity Recognition model to extract location strings from texts

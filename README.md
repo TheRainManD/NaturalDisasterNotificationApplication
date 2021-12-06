@@ -16,17 +16,17 @@ Our application contains four main components
  * Pull Server
    * Intergrated with Twitter API to maintain a live stream and listen for new Tweets from our list of verified accounts
    * Sends new Tweets to Analysis Server via HTTP request
- * Analysis Server  
+ * Analysis Server (Flask)  
    * Use a self-trained Bert-based multitask model to
      * Classify whether a Tweet is emergency related
      * Classify an emergency related Tweet to be one of the disaster types
    * Use a self-trained Bert-based Named Entity Recognition model to extract location strings from text
    * Sends emergency Tweet along with classification result and location strings to Notification Server via HTTP request
- * Notification Server  
+ * Notification Server (ExpressJS)  
    * Sends push notification to users with matching disaster type and location subscriptions
    * Creates/updates geofence object with incident information for geofence feature
    * Saves disaster incident as a new incident or update to a previous incident (The same type of disaster happening at the same location within 24 hours would be considered the same incident)
- * Frontend Mobile Application  
+ * Frontend Mobile Application (React Native)  
    * Receive and display push notification
    * Creates local push notification upon entering a geofence object (if geofence feature is enabled in setting)
    * Displays neayby disasters in both list view and map view  

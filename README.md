@@ -17,10 +17,15 @@ Our application contains four main components
    * Intergrated with Twitter API to maintain a live stream and listen for new Tweets from our list of verified accounts
    * Sends new Tweets to Analysis Server via HTTP request
  * Analysis Server (Flask)  
-   * Use a self-trained Bert-based multitask model to
+   * Training Dataset Collections
+     * Used Twitter API "User Tweet Timeline" method to collect data from multiple official accounts (Retweet are excluded). Data are manually labelled.
+     * Found and used approriate labelled datasets from CrisisNLP 
+     * Final training dataset are processed and concatenated from prvious datasets
+   * Use a self-trained BERT multi-task model to
      * Classify whether a Tweet is emergency related
      * Classify an emergency related Tweet to be one of the disaster types
-   * Use a self-trained Bert-based Named Entity Recognition model to extract location strings from text
+   * Use a self-trained DistilBERT Named Entity Recognition model to extract location strings from texts
+   * Multiple BERT and DistilBERT models with different features are trained and evaluated for performance comparison, and the one has best performance is deployed.
    * Sends emergency Tweet along with classification result and location strings to Notification Server via HTTP request
  * Notification Server (ExpressJS)  
    * Sends push notification to users with matching disaster type and location subscriptions
